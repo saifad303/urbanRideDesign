@@ -514,7 +514,7 @@ h1,h2,h3,h4,h5,h6,ol,ul,li,address,figcaption,figure{
 .search-result .navbar .navbar-nav{
     margin-top: 39px;
 }
-.search-page .navbar .navbar-nav li{
+.search-result .navbar .navbar-nav li{
     margin: 0px 20px;
 }
 .search-result .navbar .navbar-nav li:last-child{
@@ -663,4 +663,91 @@ h1,h2,h3,h4,h5,h6,ol,ul,li,address,figcaption,figure{
     border-radius: 10px;
 }
 
+.search-list .card{
+    background-color: #EFEFEF;
+    padding: 16px 14px;
+    width: 320px;
+}
+
+.search-list .card .card-body-parent{
+    background-color: #FF6E40;
+    border-radius: 10px;
+    margin-bottom: 9px;
+    position: relative;
+    height: 142px;
+}
+.search-list .card .card-body-parent h5{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 22px;
+}
+.search-list .card ul{
+    border-top: none;
+    border-bottom: none;
+}
+.search-list .card ul li{
+    margin-bottom: 16px;
+    height: 70px;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 4px;
+}
+.search-list .card ul li .img img{
+    height: 48px;
+    width: 58px;
+}
+.search-list .card ul li span p{
+    display: inline-block;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-right: 5px;
+}
+.search-list .card .card-body{
+    height: 70px;
+}
+.search-list .card ul li span p:last-child{
+    margin-left: 62px;
+}
+.search-list .card ul li span i{
+    font-size: 18px;
+    color: #8F8F8F;
+}
+
+/* shape css */
+
+.search-list .card .shape .dot{
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1000;
+}
+.search-list .card .shape{
+    display: inline-block;
+    height: 1px;
+}
+.search-list .card .shape .dot-1{
+    top: 24px;
+    left: 12px;
+}
+.search-list .card .shape .dot-2{
+    top: 94px;
+    left: 12px;
+}
+.search-list .card .shape .vertical-line{
+    position: absolute;
+    height: 63px;
+    background-color: white;
+    width: 4px;
+    top: 33px;
+    left: 19px;
+}
 /* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
